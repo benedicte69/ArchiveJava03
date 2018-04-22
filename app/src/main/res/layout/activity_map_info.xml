@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MapInfoActivity">
+
+    <include layout="@layout/merge_header_back" />
+
+    <LinearLayout style="@style/wrapperMapInfoLabel">
+
+        <TextView
+            style="@style/wrapperMapInfoCompoundLabel"
+            android:contentDescription="@string/description_google_map"
+            android:drawableLeft="@drawable/ic_find_and_go"
+            android:drawableStart="@drawable/ic_find_and_go"
+            android:paddingEnd="@dimen/padding"
+            android:paddingStart="@dimen/padding"
+            android:text="@string/find_and_go" />
+    </LinearLayout>
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        tools:context=".MapInfoActivity"
+        tools:ignore="InefficientWeight" />
+
+    <LinearLayout style="@style/wrapperMapInfoLabel">
+
+        <TextView
+            style="@style/wrapperMapInfoCompoundLabel"
+            android:contentDescription="@string/description_web_access"
+            android:drawableLeft="@drawable/ic_find_and_go"
+            android:drawablePadding="@dimen/compound_padding"
+            android:drawableStart="@drawable/ic_web_info"
+            android:paddingEnd="@dimen/padding"
+            android:paddingStart="@dimen/padding"
+            android:text="@string/more_information"
+            android:textColor="@color/colorDarkPurple" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/browse_the_web"
+        style="@style/wrapperMapInfoBrowseTheWeb"
+        android:paddingEnd="@dimen/padding"
+        android:paddingStart="@dimen/padding"
+        android:text="@string/www_browse_the_web" />
+
+    <include layout="@layout/merge_bottom" />
+
+</LinearLayout>

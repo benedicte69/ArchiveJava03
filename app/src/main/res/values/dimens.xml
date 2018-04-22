@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- margin and padding 16dp, Android Design guidelines -->
+    <dimen name="padding">16dp</dimen>-->
+    <dimen name="margin">16dp</dimen>-->
+
+    <!-- special padding for the list items-->
+    <dimen name="list_items_padding">8dp</dimen>
+
+    <!-- special padding for the list items images-->
+    <dimen name="list_items_img_padding">3dp</dimen>
+
+    <!-- special padding for the list items texts-->
+    <dimen name="list_items_text_padding">5dp</dimen>
+
+    <!-- special padding for the bottom logo-->
+    <dimen name="bottom_logo_padding">2dp</dimen>
+
+    <!-- special padding for the compound drawable of MapInfoActivity-->
+    <dimen name="compound_padding">32dp</dimen>
+
+    <!-- heights -->
+    <dimen name="tab_height">40dp</dimen>
+    <dimen name="bottom_height">40dp</dimen>
+    <dimen name="merge_header_back_height">60dp</dimen>
+    <dimen name="list_image_height">80dp</dimen>
+    <dimen name="home_image_height">140dp</dimen>
+
+
+    <!-- font sizes -->
+    <dimen name="header_font_size">30sp</dimen>
+    <dimen name="merge_header_back__font_size">18sp</dimen>
+    <dimen name="tab_font_size">14sp</dimen>
+    <dimen name="list_items_title_font_size">14sp</dimen>
+
+</resources>

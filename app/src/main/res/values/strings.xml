@@ -1,0 +1,21 @@
+<resources>
+    <!--app name-->
+    <string name="app_name">Lyon City</string>
+    <!--header-->
+    <string name="welcome_to_lyon">Welcome to Lyon</string>
+    <!--tabs title-->
+    <string name="tab_home">home</string>
+    <string name="tab_patrimony">patrimony</string>
+    <string name="tab_museum">museum</string>
+    <string name="tab_nature">nature</string>
+    <!--image content description-->
+    <string name="description_logo_of_lyon">logo of Lyon</string>
+    <string name="description_back_home">back home</string>
+    <string name="description_google_map">Google Map</string>
+    <string name="description_web_access">web access</string>
+    <string name="description_more_info">more info</string>
+    <!--MapInfo Activity text-->
+    <string name="find_and_go">Find and Go:</string>
+    <string name="more_information">More information:</string>
+    <string name="www_browse_the_web">www.browse the web</string>
+</resources>
