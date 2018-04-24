@@ -1,6 +1,6 @@
 <resources>
     <!--app name-->
-    <string name="app_name">Lyon City</string>
+    <string name="app_name" translatable="false">Lyon City</string>
     <!--header-->
     <string name="welcome_to_lyon">Welcome to Lyon</string>
     <!--tabs title-->
@@ -107,52 +107,52 @@
     <string name="patrimony_desc_17">Painting</string>
 
     <!--Web link objects-->
-    <string name="home_web_01">https://www.visiterlyon.com/</string>
-    <string name="home_web_02">https://www.heurebleue.fr/ou-sortir-a-lyon/</string>
-    <string name="home_web_03">http://www.lyon-renaissance.com/se-deplacer-a-lyon/</string>
-    <string name="nature_web_01">https://www.aquariumlyon.fr/</string>
-    <string name="nature_web_02">https://www.grand-parc.fr/</string>
-    <string name="nature_web_03">https://www.lyon-france.com/</string>
-    <string name="nature_web_04">http://www.patrimoine-lyon.org/colline-de-fourviere/fourviere/le-parc-des-hauteurs</string>
-    <string name="nature_web_05">http://www.loisirs-parcdelatetedor.com/</string>
-    <string name="nature_web_06">http://www.zoo.lyon.fr/zoo/</string>
-    <string name="nature_web_07">https://www.ruesdelyon.net/jardin/131-jardin-du-palais-saint-pierre.html-</string>
-    <string name="nature_web_08">https://www.grandlyon.com/a-vivre/parc-blandan.html</string>
-    <string name="nature_web_09">https://miniworldlyon.com/</string>
-    <string name="museum_web_01">http://www.mba-lyon.fr/mba/</string>
-    <string name="museum_web_02">http://www.museedesconfluences.fr/</string>
-    <string name="museum_web_03">http://www.mac-lyon.com/mac/</string>
-    <string name="museum_web_04">http://maisondescanuts.com/</string>
-    <string name="museum_web_05">http://www.gadagne.musees.lyon.fr/</string>
-    <string name="museum_web_06">https://www.museeautomates.com/</string>
-    <string name="museum_web_07">http://www.organe.org/</string>
-    <string name="museum_web_08">http://www.museegalloromain.grandlyon.com/</string>
-    <string name="museum_web_09">http://www.mtmad.fr/fr/Pages/default.aspx</string>
-    <string name="museum_web_10">http://www.institut-lumiere.org/</string>
-    <string name="museum_web_11">http://www.chrd.lyon.fr/chrd/</string>
-    <string name="museum_web_12">http://www.imprimerie.lyon.fr/imprimerie/</string>
-    <string name="museum_web_13">http://www.museeurbaintonygarnier.com/</string>
-    <string name="museum_web_14">https://www.museeminiatureetcinema.fr/</string>
-    <string name="patrimony_web_01">https://www.lyon-france.com/Je-decouvre-Lyon/Sites-et-monuments/Antique/Amphitheatre-des-Trois-Gaules</string>
-    <string name="patrimony_web_02">http://www.eiffageconstruction.com/metiers/realisations/reconversion-grand-hotel-dieu-lyon</string>
-    <string name="patrimony_web_03">https://www.lyon-france.com/Je-decouvre-Lyon/Sites-et-monuments/Sites-et-monuments-remarquables/La-Tour-Metallique</string>
-    <string name="patrimony_web_04">http://www.lyon-visite.info/vieux-lyon/</string>
-    <string name="patrimony_web_05">http://www.patrimoine-lyon.org/la-colline-de-la-croix-rousse</string>
-    <string name="patrimony_web_06">https://fr.wikipedia.org/wiki/Primatiale_Saint-Jean_de_Lyon</string>
-    <string name="patrimony_web_07">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Georges_de_Lyon</string>
-    <string name="patrimony_web_08">http://www.fourviere.org/</string>
-    <string name="patrimony_web_09">https://fr.wikipedia.org/wiki/Temple_du_Change</string>
-    <string name="patrimony_web_10">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Nizier_de_Lyon</string>
-    <string name="patrimony_web_11">http://www.patrimoine-lyon.org/la-presqu-ile/centre-ville-2/la-place-bellecour</string>
-    <string name="patrimony_web_12">http://www.memorial-montluc.fr/</string>
-    <string name="patrimony_web_13">https://www.lyon.fr/lieu/moderne-17eme-18eme/hotel-de-ville-de-lyon</string>
-    <string name="patrimony_web_14">https://www.lyon-france.com/Je-decouvre-Lyon/Sites-et-monuments/Sites-et-monuments-remarquables/La-Fontaine-Bartholdi</string>
-    <string name="patrimony_web_15">http://www.opera-lyon.com/fr</string>
-    <string name="patrimony_web_16">http://www.visitelyon.fr/murs-peints/mur,des,canuts/mur,des,canuts.php</string>
-    <string name="patrimony_web_17">http://www.visitelyon.fr/murs-lyonnais.php</string>
+    <string name="home_web_01" translatable="false">https://www.visiterlyon.com/</string>
+    <string name="home_web_02" translatable="false">https://www.heurebleue.fr/ou-sortir-a-lyon/</string>
+    <string name="home_web_03" translatable="false">http://www.lyon-renaissance.com/se-deplacer-a-lyon/</string>
+    <string name="nature_web_01" translatable="false">https://www.aquariumlyon.fr/</string>
+    <string name="nature_web_02" translatable="false">https://www.grand-parc.fr/</string>
+    <string name="nature_web_03" translatable="false">https://www.lyon-france.com/</string>
+    <string name="nature_web_04" translatable="false">http://www.patrimoine-lyon.org/colline-de-fourviere/fourviere/le-parc-des-hauteurs</string>
+    <string name="nature_web_05" translatable="false">http://www.loisirs-parcdelatetedor.com/</string>
+    <string name="nature_web_06" translatable="false">http://www.zoo.lyon.fr/zoo/</string>
+    <string name="nature_web_07" translatable="false">https://www.ruesdelyon.net/jardin/131-jardin-du-palais-saint-pierre.html-</string>
+    <string name="nature_web_08" translatable="false">https://www.grandlyon.com/a-vivre/parc-blandan.html</string>
+    <string name="nature_web_09" translatable="false">https://miniworldlyon.com/</string>
+    <string name="museum_web_01" translatable="false">http://www.mba-lyon.fr/mba/</string>
+    <string name="museum_web_02" translatable="false">http://www.museedesconfluences.fr/</string>
+    <string name="museum_web_03" translatable="false">http://www.mac-lyon.com/mac/</string>
+    <string name="museum_web_04" translatable="false">http://maisondescanuts.com/</string>
+    <string name="museum_web_05" translatable="false">http://www.gadagne.musees.lyon.fr/</string>
+    <string name="museum_web_06" translatable="false">https://www.museeautomates.com/</string>
+    <string name="museum_web_07" translatable="false">http://www.organe.org/</string>
+    <string name="museum_web_08" translatable="false">http://www.museegalloromain.grandlyon.com/</string>
+    <string name="museum_web_09" translatable="false">http://www.mtmad.fr/fr/Pages/default.aspx</string>
+    <string name="museum_web_10" translatable="false">http://www.institut-lumiere.org/</string>
+    <string name="museum_web_11" translatable="false">http://www.chrd.lyon.fr/chrd/</string>
+    <string name="museum_web_12" translatable="false">http://www.imprimerie.lyon.fr/imprimerie/</string>
+    <string name="museum_web_13" translatable="false">http://www.museeurbaintonygarnier.com/</string>
+    <string name="museum_web_14" translatable="false">https://www.museeminiatureetcinema.fr/</string>
+    <string name="patrimony_web_01" translatable="false">https://www.lyon-france.com/Je-decouvre-Lyon/Sites-et-monuments/Antique/Amphitheatre-des-Trois-Gaules</string>
+    <string name="patrimony_web_02" translatable="false">http://www.eiffageconstruction.com/metiers/realisations/reconversion-grand-hotel-dieu-lyon</string>
+    <string name="patrimony_web_03" translatable="false">https://www.lyon-france.com/Je-decouvre-Lyon/Sites-et-monuments/Sites-et-monuments-remarquables/La-Tour-Metallique</string>
+    <string name="patrimony_web_04" translatable="false">http://www.lyon-visite.info/vieux-lyon/</string>
+    <string name="patrimony_web_05" translatable="false">http://www.patrimoine-lyon.org/la-colline-de-la-croix-rousse</string>
+    <string name="patrimony_web_06" translatable="false">https://fr.wikipedia.org/wiki/Primatiale_Saint-Jean_de_Lyon</string>
+    <string name="patrimony_web_07" translatable="false">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Georges_de_Lyon</string>
+    <string name="patrimony_web_08" translatable="false">http://www.fourviere.org/</string>
+    <string name="patrimony_web_09" translatable="false">https://fr.wikipedia.org/wiki/Temple_du_Change</string>
+    <string name="patrimony_web_10" translatable="false">https://fr.wikipedia.org/wiki/%C3%89glise_Saint-Nizier_de_Lyon</string>
+    <string name="patrimony_web_11" translatable="false">http://www.patrimoine-lyon.org/la-presqu-ile/centre-ville-2/la-place-bellecour</string>
+    <string name="patrimony_web_12" translatable="false">http://www.memorial-montluc.fr/</string>
+    <string name="patrimony_web_13" translatable="false">https://www.lyon.fr/lieu/moderne-17eme-18eme/hotel-de-ville-de-lyon</string>
+    <string name="patrimony_web_14" translatable="false">https://www.lyon-france.com/Je-decouvre-Lyon/Sites-et-monuments/Sites-et-monuments-remarquables/La-Fontaine-Bartholdi</string>
+    <string name="patrimony_web_15" translatable="false">http://www.opera-lyon.com/fr</string>
+    <string name="patrimony_web_16" translatable="false">http://www.visitelyon.fr/murs-peints/mur,des,canuts/mur,des,canuts.php</string>
+    <string name="patrimony_web_17" translatable="false">http://www.visitelyon.fr/murs-lyonnais.php</string>
 
     <!--Specific java strings not to be translated-->
-    <string name="java_title_data">TitleData</string>
-    <string name="java_web_link_data">WebLinkData</string>
+    <string name="java_title_data" translatable="false">TitleData</string>
+    <string name="java_web_link_data" translatable="false">WebLinkData</string>
 
 </resources>

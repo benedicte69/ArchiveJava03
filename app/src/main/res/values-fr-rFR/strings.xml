@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--header-->
+    <string name="welcome_to_lyon">Bienvenue à Lyon</string>
+    <!--tabs title-->
+    <string name="tab_home">accueil</string>
+    <string name="tab_patrimony">patrimoine</string>
+    <string name="tab_museum">musée</string>
+    <string name="tab_nature">nature</string>
+    <!--image content description-->
+    <string name="description_logo_of_lyon">logo de  la ville de Lyon</string>
+    <string name="description_back_home">retour</string>
+    <string name="description_google_map">Google Map</string>
+    <string name="description_web_access">accéder au web</string>
+    <string name="description_more_info">plus d\'informations</string>
+    <!--MapInfo Activity text-->
+    <string name="find_and_go">Trouver et Aller :</string>
+    <string name="more_information">Plus d\'informations :</string>
+    <string name="www_browse_the_web">www.naviguez sur le web</string>
+
+    <!--Title objects-->
+    <string name="home_title_01">Savourez une visite guidée</string>
+    <string name="home_title_02">Relaxez-vous</string>
+    <string name="home_title_03">Déplacez-vous</string>
+    <string name="nature_title_01">Aquarium de Lyon</string>
+    <string name="nature_title_02">Grand Parc Miribel Jonage</string>
+    <string name="nature_title_03">Jardin botanique de Lyon</string>
+    <string name="nature_title_04">Parc des Hauteurs</string>
+    <string name="nature_title_05">Parc de la Tête d\'or</string>
+    <string name="nature_title_06">Jardin zoologique de Lyon</string>
+    <string name="nature_title_07">Jardin du Palais Saint-Pierre</string>
+    <string name="nature_title_08">Parc Sergent Blandan</string>
+    <string name="nature_title_09">Mini World Lyon</string>
+    <string name="museum_title_01">Musée des beaux-arts de Lyon</string>
+    <string name="museum_title_02">Musée des Confluences</string>
+    <string name="museum_title_03">Musée d\'art contemporain de Lyon</string>
+    <string name="museum_title_04">Maison des Canuts</string>
+    <string name="museum_title_05">Musées Gadagne</string>
+    <string name="museum_title_06">Musee des Automates du Vieux Lyon</string>
+    <string name="museum_title_07">Demeure du Chaos</string>
+    <string name="museum_title_08">Lugdunum</string>
+    <string name="museum_title_09">Musée des Tissus et des Arts décoratifs</string>
+    <string name="museum_title_10">Institut Lumière</string>
+    <string name="museum_title_11">Centre d\'histoire de la résistance et de la déportation</string>
+    <string name="museum_title_12">Musée de l\'Imprimerie</string>
+    <string name="museum_title_13">Musée urbain Tony-Garnier</string>
+    <string name="museum_title_14">Musée Miniature et Cinéma</string>
+    <string name="patrimony_title_01">Amphithéâtre des Trois Gaules</string>
+    <string name="patrimony_title_02">Hôtel-Dieu de Lyon</string>
+    <string name="patrimony_title_03">Tour métallique de Fourvière</string>
+    <string name="patrimony_title_04">Vieux Lyon</string>
+    <string name="patrimony_title_05">La Croix-Rousse</string>
+    <string name="patrimony_title_06">Primatiale Saint-Jean de Lyon</string>
+    <string name="patrimony_title_07">Église Saint-Georges de Lyon</string>
+    <string name="patrimony_title_08">Basilique Notre-Dame de Fourvière</string>
+    <string name="patrimony_title_09">Temple du Change</string>
+    <string name="patrimony_title_10">Église Saint-Nizier de Lyon</string>
+    <string name="patrimony_title_11">Place Bellecour</string>
+    <string name="patrimony_title_12">Prison Montluc</string>
+    <string name="patrimony_title_13">Hôtel de ville de Lyon</string>
+    <string name="patrimony_title_14">Fontaine Bartholdi</string>
+    <string name="patrimony_title_15">Opéra de Lyon</string>
+    <string name="patrimony_title_16">Fresque des Canuts</string>
+    <string name="patrimony_title_17">Fresque des Lyonnais</string>
+
+    <!--Short description objects-->
+    <string name="nature_desc_01">Plus de 5 000 poissons du monde entier</string>
+    <string name="nature_desc_02"><![CDATA[Grand parc, nature & activités sportives]]></string>
+    <string name="nature_desc_03">Jardin et parc</string>
+    <string name="nature_desc_04">Parc et jardin</string>
+    <string name="nature_desc_05">Vaste parc du XIXe siècle avec un lac</string>
+    <string name="nature_desc_06">Zoo vieux de 150 ans, singes et zèbres</string>
+    <string name="nature_desc_07"> lieu de pause</string>
+    <string name="nature_desc_08"> parc public de 17 hectares</string>
+    <string name="nature_desc_09">Parc et parc d\'attractions</string>
+    <string name="museum_desc_01">Art et objets anciens et modernes</string>
+    <string name="museum_desc_02">Expos d\'anthropologie, édifice moderne</string>
+    <string name="museum_desc_03">Expositions d\'art contemporain et café</string>
+    <string name="museum_desc_04">Expositions sur la soierie de la ville</string>
+    <string name="museum_desc_05">Histoire de la ville et marionnettes</string>
+    <string name="museum_desc_06">Musée</string>
+    <string name="museum_desc_07">Musée Art contemporain plein air</string>
+    <string name="museum_desc_08">Musée avec objets et antiquités romains</string>
+    <string name="museum_desc_09">Musée des Tissus et des Arts décoratifs</string>
+    <string name="museum_desc_10">Musée et cinéma avec projections</string>
+    <string name="museum_desc_11">Musée sur la 2de Guerre mondiale à Lyon</string>
+    <string name="museum_desc_12">Musée, histoire de l\'imprimerie locale</string>
+    <string name="museum_desc_13">Peintures murales, architecture locale</string>
+    <string name="museum_desc_14"><![CDATA[Scènes miniatures & accessoires de films]]></string>
+    <string name="patrimony_desc_01">Amphithéâtre romain de 19 après J.-C.</string>
+    <string name="patrimony_desc_02">Ancien hôpital bordant le fleuve</string>
+    <string name="patrimony_desc_03">Architecture</string>
+    <string name="patrimony_desc_04">Architecture, renaissance, cathédrale et histoire</string>
+    <string name="patrimony_desc_05">Art urbain, couvent, tissage et jardin</string>
+    <string name="patrimony_desc_06">Cathédrale avec trésors du XIVe siècle</string>
+    <string name="patrimony_desc_07">Église</string>
+    <string name="patrimony_desc_08">Église en hauteur, musée d\'Art religieux</string>
+    <string name="patrimony_desc_09">Église et architecture</string>
+    <string name="patrimony_desc_10">Église gothique au riche patrimoine</string>
+    <string name="patrimony_desc_11">Grande place publique piétonne</string>
+    <string name="patrimony_desc_12">Histoire</string>
+    <string name="patrimony_desc_13">Imposant site historique, hôtel de ville</string>
+    <string name="patrimony_desc_14">Monument historique, sculpteur célèbre</string>
+    <string name="patrimony_desc_15">Opéra, concert et architecture</string>
+    <string name="patrimony_desc_16">Peinture</string>
+    <string name="patrimony_desc_17">Peinture</string>
+
+
+</resources>
