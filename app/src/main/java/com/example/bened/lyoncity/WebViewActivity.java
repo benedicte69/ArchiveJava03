@@ -20,8 +20,8 @@ public class WebViewActivity extends AppCompatActivity {
 
         //get the Title Data parcel items we need in this page
         final Intent intentTitleData = getIntent();
-        final ItemList parcelTitle = intentTitleData.getParcelableExtra("TitleData");
-        final ItemList parcelWebLink = intentTitleData.getParcelableExtra("WebLinkData");
+        final ItemList parcelTitle = intentTitleData.getParcelableExtra(getString(R.string.java_title_data));
+        final ItemList parcelWebLink = intentTitleData.getParcelableExtra(getString(R.string.java_web_link_data));
 
         //Set the parcelTitle in a view
         if (parcelTitle != null) {

@@ -25,6 +25,7 @@ import java.util.Objects;
  */
 public class NatureFragment extends Fragment {
 
+
     public NatureFragment() {
         // Required empty public constructor
     }
@@ -37,24 +38,24 @@ public class NatureFragment extends Fragment {
 
         // Create a list of nature objects
         final ArrayList<ItemList> itemLists = new ArrayList<>();
-        itemLists.add(new ItemList(R.drawable.nature_aquarium, "Aquarium of Lyon", "More than 5,000 fish from all over the world",
-                45.727919, 4.815725, "https://www.aquariumlyon.fr/"));
-        itemLists.add(new ItemList(R.drawable.nature_miribel_jonage, "Great Park Miribel Jonage", "Large park, nature & sports activities",
-                45.798454, 4.941105, "https://www.grand-parc.fr/"));
-        itemLists.add(new ItemList(R.drawable.nature_jardin_botanique, "Botanical Garden of Lyon", "Garden and park",
-                45.773156, 4.854833, "https://www.lyon-france.com/"));
-        itemLists.add(new ItemList(R.drawable.nature_parc_des_hauteurs, "Park of Heights", "Park and garden",
-                45.761876, 4.823521, "http://www.patrimoine-lyon.org/colline-de-fourviere/fourviere/le-parc-des-hauteurs"));
-        itemLists.add(new ItemList(R.drawable.nature_parc_tete_d_or, "Park head gold", "Large 19th century park with a lake",
-                45.777403, 4.855214, "http://www.loisirs-parcdelatetedor.com/"));
-        itemLists.add(new ItemList(R.drawable.nature_jardin_zoologique, "Zoo of Lyon", "Zoo 150 years old, monkeys and zebras",
-                45.778441, 4.856714, "http://www.zoo.lyon.fr/zoo/"));
-        itemLists.add(new ItemList(R.drawable.nature_jardin_palais_saint_pierre, "Palace Garden Saint-Pierre", "resting area ",
-                45.766844, 4.833641, "https://www.ruesdelyon.net/jardin/131-jardin-du-palais-saint-pierre.html-"));
-        itemLists.add(new ItemList(R.drawable.nature_parc_sergent_blandan, "Sergent Blandan Park ", "public park of 17 hectares",
-                45.745637, 4.854416, "https://www.grandlyon.com/a-vivre/parc-blandan.html"));
-        itemLists.add(new ItemList(R.drawable.natrure_mini_world_lyon, "Mini World Lyon", "Parc et parc d'attractions",
-                45.764803, 4.923365, "https://miniworldlyon.com/"));
+        itemLists.add(new ItemList(R.drawable.nature_aquarium, getString(R.string.nature_title_01), getString(R.string.nature_desc_01),
+                45.727919, 4.815725, getString(R.string.nature_web_01)));
+        itemLists.add(new ItemList(R.drawable.nature_miribel_jonage, getString(R.string.nature_title_02), getString(R.string.nature_desc_02),
+                45.798454, 4.941105, getString(R.string.nature_web_02)));
+        itemLists.add(new ItemList(R.drawable.nature_jardin_botanique, getString(R.string.nature_title_03), getString(R.string.nature_desc_03),
+                45.773156, 4.854833, getString(R.string.nature_web_03)));
+        itemLists.add(new ItemList(R.drawable.nature_parc_des_hauteurs, getString(R.string.nature_title_04), getString(R.string.nature_desc_04),
+                45.761876, 4.823521, getString(R.string.nature_web_04)));
+        itemLists.add(new ItemList(R.drawable.nature_parc_tete_d_or, getString(R.string.nature_title_05), getString(R.string.nature_desc_05),
+                45.777403, 4.855214, getString(R.string.nature_web_05)));
+        itemLists.add(new ItemList(R.drawable.nature_jardin_zoologique, getString(R.string.nature_title_06), getString(R.string.nature_desc_06),
+                45.778441, 4.856714, getString(R.string.nature_web_06)));
+        itemLists.add(new ItemList(R.drawable.nature_jardin_palais_saint_pierre, getString(R.string.nature_title_07), getString(R.string.nature_desc_07),
+                45.766844, 4.833641, getString(R.string.nature_web_07)));
+        itemLists.add(new ItemList(R.drawable.nature_parc_sergent_blandan, getString(R.string.nature_title_08), getString(R.string.nature_desc_08),
+                45.745637, 4.854416, getString(R.string.nature_web_08)));
+        itemLists.add(new ItemList(R.drawable.natrure_mini_world_lyon, getString(R.string.nature_title_09), getString(R.string.nature_desc_09),
+                45.764803, 4.923365, getString(R.string.nature_web_09)));
 
         //Create an Adapter to display the ArrayList in a ListView
         ItemListAdapter listViewAdapter = null;
@@ -93,8 +94,8 @@ public class NatureFragment extends Fragment {
 
                 //put in memory the TitleData and the WebLinkData parcel
                 Intent intent = new Intent(getActivity(), MapInfoActivity.class);
-                intent.putExtra("TitleData", itemLists.get(position));
-                intent.putExtra("WebLinkData", itemLists.get(position));
+                intent.putExtra(getString(R.string.java_title_data), itemLists.get(position));
+                intent.putExtra(getString(R.string.java_web_link_data), itemLists.get(position));
 
                 //Choose the new activity to be opened
                 Intent displayMapInfo = new Intent(getActivity(), MapInfoActivity.class);

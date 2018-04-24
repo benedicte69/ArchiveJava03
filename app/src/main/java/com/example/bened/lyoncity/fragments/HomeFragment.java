@@ -37,9 +37,9 @@ public class HomeFragment extends Fragment {
 
         // Create a list of home objects
         final ArrayList<ItemList> itemLists = new ArrayList<>();
-        itemLists.add(new ItemList(R.drawable.lyon_home_guide, "Enjoy a guided tour", "https://www.visiterlyon.com/"));
-        itemLists.add(new ItemList(R.drawable.lyon_home_break, "Have a break", "https://www.heurebleue.fr/ou-sortir-a-lyon/"));
-        itemLists.add(new ItemList(R.drawable.lyon_home_move, "Move your way", "http://www.lyon-renaissance.com/se-deplacer-a-lyon/"));
+        itemLists.add(new ItemList(R.drawable.lyon_home_guide, getString(R.string.home_title_01), getString(R.string.home_web_01)));
+        itemLists.add(new ItemList(R.drawable.lyon_home_break, getString(R.string.home_title_02), getString(R.string.home_web_02)));
+        itemLists.add(new ItemList(R.drawable.lyon_home_move, getString(R.string.home_title_03), getString(R.string.home_web_03)));
 
         //Create an Adapter to display the ArrayList in a ListView
         HomeItemListAdapter listViewAdapter = null;
@@ -76,8 +76,8 @@ public class HomeFragment extends Fragment {
 
                 //put in memory the TitleData and the WebLinkData parcel
                 Intent intent = new Intent(getActivity(), WebViewActivity.class);
-                intent.putExtra("TitleData", itemLists.get(position));
-                intent.putExtra("WebLinkData", itemLists.get(position));
+                intent.putExtra(getString(R.string.java_title_data), itemLists.get(position));
+                intent.putExtra(getString(R.string.java_web_link_data), itemLists.get(position));
 
                 //Choose the new activity to be opened
                 Intent displayWebView = new Intent(getActivity(), WebViewActivity.class);

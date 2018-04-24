@@ -26,8 +26,8 @@ public class MapInfoActivity extends AppCompatActivity implements OnMapReadyCall
 
         //get the Title Data parcel items we need in this page
         Intent intentTitleData = getIntent();
-        ItemList parcelTitle = intentTitleData.getParcelableExtra("TitleData");
-        final ItemList parcelWebLink = intentTitleData.getParcelableExtra("WebLinkData");
+        ItemList parcelTitle = intentTitleData.getParcelableExtra(getString(R.string.java_title_data));
+        final ItemList parcelWebLink = intentTitleData.getParcelableExtra(getString(R.string.java_web_link_data));
 
         //Set the parcelTitle in a view
         if (parcelTitle != null) {
@@ -79,7 +79,7 @@ public class MapInfoActivity extends AppCompatActivity implements OnMapReadyCall
     public void onMapReady(GoogleMap googleMap) {
         //get the TitleData parcel items we need to set in the map
         Intent intentTitleData = getIntent();
-        ItemList parcelTitle = intentTitleData.getParcelableExtra("TitleData");
+        ItemList parcelTitle = intentTitleData.getParcelableExtra(getString(R.string.java_title_data));
         if (parcelTitle != null) {
             String marker = parcelTitle.getItemTitle();
             double latitude = parcelTitle.getV();

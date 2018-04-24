@@ -38,34 +38,34 @@ public class MuseumFragment extends Fragment {
 
         // Create a list of museum objects
         final ArrayList<ItemList> itemLists = new ArrayList<>();
-        itemLists.add(new ItemList(R.drawable.museum_beaux_arts, "Museum of Fine Arts of Lyon", "Art and ancient and modern objects",
-                45.767109, 151.214028, "http://www.mba-lyon.fr/mba/"));
-        itemLists.add(new ItemList(R.drawable.museum_des_confluences, "Museum of Confluences", "Anthropology exhibition, modern building",
-                45.732649, 4.818213, "http://www.museedesconfluences.fr/"));
-        itemLists.add(new ItemList(R.drawable.museum_art_contemporain, "Museum of Contemporary Art of Lyon", "Exhibitions of contemporary art and coffee",
-                45.784216, 4.852374, "http://www.mac-lyon.com/mac/"));
-        itemLists.add(new ItemList(R.drawable.museum_maison_des_canuts, "House of the Canuts", "Exhibitions on the silk of the city",
-                45.777089, 4.834003, "http://maisondescanuts.com/"));
-        itemLists.add(new ItemList(R.drawable.museum_gadagne, "Museums Gadagne", "History of the city and puppets",
-                45.764041, 4.827593, "http://www.gadagne.musees.lyon.fr/"));
-        itemLists.add(new ItemList(R.drawable.museum_automate, "Museum of Automata of old Lyon", "Museum",
-                45.756247, 4.824026, "https://www.museeautomates.com/"));
-        itemLists.add(new ItemList(R.drawable.museum_demeure_du_chaos, "House of Chaos", "Museum Contemporary Art Outdoor",
-                45.837459, 4.826721, "http://www.organe.org/"));
-        itemLists.add(new ItemList(R.drawable.museum_lugdunum, "Lugdunum", "Museum with Roman objects and antiquities",
-                45.760419, 4.819964, "http://www.museegalloromain.grandlyon.com/"));
-        itemLists.add(new ItemList(R.drawable.museum_tissus_art_deco, "Museum of Fabrics and Decorative Arts", "Museum of Fabrics and Decorative Arts",
-                45.753234, 4.831183, "http://www.mtmad.fr/fr/Pages/default.aspx"));
-        itemLists.add(new ItemList(R.drawable.museum_institut_lumiere, "Institute Light", "Museum and cinema with projections",
-                45.745211, 4.869649, "http://www.institut-lumiere.org/"));
-        itemLists.add(new ItemList(R.drawable.museum_centre_histoire_resistance, "Center for the History of Resistance and Deportation", "Museum on the 2nd World War in Lyon",
-                45.746684, 4.835544, "http://www.chrd.lyon.fr/chrd/"));
-        itemLists.add(new ItemList(R.drawable.museum_imprimerie, "Printing Museum", "Museum, history of local printing",
-                45.764240, 4.834668, "http://www.imprimerie.lyon.fr/imprimerie/"));
-        itemLists.add(new ItemList(R.drawable.museum_urbain_tony_garnier, "Tony-Garnier Urban Museum", "Murals, local architecture",
-                45.733491, 4.862952, "http://www.museeurbaintonygarnier.com/"));
-        itemLists.add(new ItemList(R.drawable.museum_miniature_et_cinema, "Miniature Museum and Cinema", "Miniature scenes & movie props",
-                45.761876, 4.827347, "https://www.museeminiatureetcinema.fr/"));
+        itemLists.add(new ItemList(R.drawable.museum_beaux_arts, getString(R.string.museum_title_01), getString(R.string.museum_desc_01),
+                45.767109, 151.214028, getString(R.string.museum_web_01)));
+        itemLists.add(new ItemList(R.drawable.museum_des_confluences, getString(R.string.museum_title_02), getString(R.string.museum_desc_02),
+                45.732649, 4.818213, getString(R.string.museum_web_02)));
+        itemLists.add(new ItemList(R.drawable.museum_art_contemporain, getString(R.string.museum_title_03), getString(R.string.museum_desc_03),
+                45.784216, 4.852374, getString(R.string.museum_web_03)));
+        itemLists.add(new ItemList(R.drawable.museum_maison_des_canuts, getString(R.string.museum_title_04), getString(R.string.museum_desc_04),
+                45.777089, 4.834003, getString(R.string.museum_web_04)));
+        itemLists.add(new ItemList(R.drawable.museum_gadagne, getString(R.string.museum_title_05), getString(R.string.museum_desc_05),
+                45.764041, 4.827593, getString(R.string.museum_web_05)));
+        itemLists.add(new ItemList(R.drawable.museum_automate, getString(R.string.museum_title_06), getString(R.string.museum_desc_06),
+                45.756247, 4.824026, getString(R.string.museum_web_06)));
+        itemLists.add(new ItemList(R.drawable.museum_demeure_du_chaos, getString(R.string.museum_title_07), getString(R.string.museum_desc_07),
+                45.837459, 4.826721, getString(R.string.museum_web_07)));
+        itemLists.add(new ItemList(R.drawable.museum_lugdunum, getString(R.string.museum_title_08), getString(R.string.museum_desc_08),
+                45.760419, 4.819964, getString(R.string.museum_web_08)));
+        itemLists.add(new ItemList(R.drawable.museum_tissus_art_deco, getString(R.string.museum_title_09), getString(R.string.museum_desc_09),
+                45.753234, 4.831183, getString(R.string.museum_web_09)));
+        itemLists.add(new ItemList(R.drawable.museum_institut_lumiere, getString(R.string.museum_title_10), getString(R.string.museum_desc_10),
+                45.745211, 4.869649, getString(R.string.museum_web_10)));
+        itemLists.add(new ItemList(R.drawable.museum_centre_histoire_resistance, getString(R.string.museum_title_11), getString(R.string.museum_desc_11),
+                45.746684, 4.835544, getString(R.string.museum_web_11)));
+        itemLists.add(new ItemList(R.drawable.museum_imprimerie, getString(R.string.museum_title_12), getString(R.string.museum_desc_12),
+                45.764240, 4.834668, getString(R.string.museum_web_12)));
+        itemLists.add(new ItemList(R.drawable.museum_urbain_tony_garnier, getString(R.string.museum_title_13), getString(R.string.museum_desc_13),
+                45.733491, 4.862952, getString(R.string.museum_web_13)));
+        itemLists.add(new ItemList(R.drawable.museum_miniature_et_cinema, getString(R.string.museum_title_14), getString(R.string.museum_desc_14),
+                45.761876, 4.827347, getString(R.string.museum_web_14)));
 
         //Create an Adapter to display the ArrayList in a ListView
         ItemListAdapter listViewAdapter = null;
@@ -102,8 +102,8 @@ public class MuseumFragment extends Fragment {
 
                 //put in memory the TitleData and the WebLinkData parcel
                 Intent intent = new Intent(getActivity(), MapInfoActivity.class);
-                intent.putExtra("TitleData", itemLists.get(position));
-                intent.putExtra("WebLinkData", itemLists.get(position));
+                intent.putExtra(getString(R.string.java_title_data), itemLists.get(position));
+                intent.putExtra(getString(R.string.java_web_link_data), itemLists.get(position));
 
                 //Choose the new activity to be opened
                 Intent displayMapInfo = new Intent(getActivity(), MapInfoActivity.class);
